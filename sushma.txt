@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+<title> store </title>
+background{width:100%;}
+</style>
+</head>
+<body background="bank.jpg">
+<center>
+<h1 bgcolor="voilet"><B>SHREE MULTI SERVICES </B></h1>
+<h1>SAYKHED</h1>
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<h1><button> computer print </button></h1>
+<align="left">
+<h1><a href="https://paytm.com/dth-recharge"><b>DTH recharge </b></h1>
+<h2><p> MOBILE reacharge  </p></h2>
+<h2><button> cash withral  </button></h2>
+<h2><button> pan card </button></h2>
+<h2><button> light bill </button></h2>
+<h2><button> all type of online form </button></h2>
+</body>
+</html>

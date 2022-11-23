@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Global Store</title>
+    <style>
+        *{
+            margin: 0.4;
+            padding: 0.4;
+        }
+        *h4{
+            color: green;
+
+        }
+    </style>
+    
+   
+</head>
+
+<body style="background-image:url('back.jpg');">
+    <h4> Hello World</h4>
+
+    
+
+    
+   
+   <center>
+    
+
+    <h1> shree multiservices </h1>
+    <nav class="Menu">
+        
+        <a href="about.html"> About</a>
+        <a href="#contact"> Contact </a>
+        <a href="home1.html"> login</a>
+        <a href="pract2.html">table</a>
+        
+
+    </nav>
+    
+
+
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quia culpa sunt impedit, ipsum, ullam quidem eum ipsam, eaque cumque quas aliquam ad labore at blanditiis? Facilis enim hic reiciendis reprehenderit accusantium debitis inventore assumenda voluptates quidem delectus! Dolor doloremque voluptatibus numquam corporis similique officiis esse in est itaque illo! Delectus asperiores 
+        
+        <h3> Alert Box</h3>
+    <button onclick="helloAlert()">
+    click here for the alert box 
+    </button>
+    
+
+    <script>
+        function HelloAlert(){
+            alert("An online computer science"+"portal for world")
+        }
+    </script>maiores doloribus saepe ut unde.</p>
+
+<h2> Servicer </h2>
+<h3> prompt Box </h3>
+<input type="button" onclick="servicebox()" value="Click here for prompt box"/>
+<script>
+    function servicebox(){
+        var x=prompt("Enter your mail here:")
+        document.write("Your id : " +x)
+    }
+</script>
+
+
+
+<h1>
+    server 
+</h1>
+<h3> confirm Box </h3>
+<button onclick="serverConfirm()">
+click here for confirm box
+</button>
+<p id="server"></p>
+
+<script>
+    functionserverBox(){
+        var x; 
+        if (confirm("Press a Button !")==true){
+            x= "ok pressed"
+        }else{
+            x="Cancel!"
+        }
+        document.getElementById("server").innerHTML = x;
+    }
+
+
+
+</script>
+
+
+
+
+
+
+
+
+
+
+    
+
+
+
+
+    <form>
+        <b>First name: <input type="text" name="firstname"><br></b><br>
+        <b>Last name: <input type="text" name="lastname"></b><br><br>
+        <b>Email address:<input type="text" name="email"><br>
+
+            <br>
+            
+            <b>Phone:<input type="tel" name="phone" pattern="[7 8 9][0-9]{9}"><b><br><br>
+            Gender: <br></b>
+            
+            <input type="radio" name="gender" value="Male"> Male<br>
+            <input type="radio" name="gender" value="Female"> Female<br>
+        </b>  
+        
+        
+        upload photo:<input type="file"accept="image/jpg*">
+        <br>
+        <input type="submit"></input>
+        <input type="reset"></input>
+    </form>
+</center>
+    
+</body>
+</html>

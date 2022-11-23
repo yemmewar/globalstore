@@ -1,0 +1,47 @@
+<h3> Alert Box</h3>
+    <button onclick="helloAlert()">
+    click here for the alert box 
+    </button>
+    
+
+    <script>
+        function HelloAlert(){
+            alert("An online computer science"+"portal for world")
+        }
+    </script>
+
+<h2> Servicer </h2>
+<h3> prompt Box </h3>
+<input type="button" onclick="servicebox()" value="Click here for prompt box"/>
+<script>
+    function servicebox(){
+        var x=prompt("Enter your mail here:")
+        document.write("Your id : " +x)
+    }
+</script>
+
+
+
+<h1>
+    server 
+</h1>
+<h3> confirm Box </h3>
+<button onclick="serverConfirm()">
+click here for confirm box
+</button>
+<p id="server"></p>
+
+<script>
+    functionserverBox(){
+        var x; 
+        if (confirm("Press a Button !")==true){
+            x= "ok pressed"
+        }else{
+            x="Cancel!"
+        }
+        document.getElementById("server").innerHTML = x;
+    }
+
+
+
+</script>
